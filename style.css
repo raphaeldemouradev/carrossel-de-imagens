@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* corpo */
+
+main {
+    display: flex;
+}
+
+/* campo de imagens */
+section {
+    display: flex;
+    position: relative;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+div.imagem1 {
+    background-color: blue;
+    transform: translate(-50%, 0%);
+}
+
+div.imagem2 {
+    background-color: yellow;
+    transform: translate(-50%, 0%);
+}
+
+div.imagem3 {
+    background-color: red;
+    transform: translate(-50%, 0%);
+}
+
+/* botao de troca */
+
+button {
+    margin: auto;
+    background-color: white;
+    width: 40px;
+    height: 200px;
+    font-size: 40px;
+    box-shadow: -1px 5px 10px 2px #b050ff, -2px -5px 10px 2px #2600ff;
+}
